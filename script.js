@@ -13,6 +13,7 @@ class navbar extends HTMLElement {
     this.innerHTML = `
     <div class="topnav" id="myTopnav">
     <a href="">Home</a>
+    <a class="social" aria-hidden="true" href="https://github.com/NiftyJobs/niftyjobs.github.io" target="_blank">
     <i class="fa fa-github" style="color:black"></i> 
     </a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
